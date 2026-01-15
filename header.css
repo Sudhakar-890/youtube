@@ -145,7 +145,7 @@ body{
     font-size:18px;
 }
 
-@media (max-width:500px){
+@media (max-width:430px){
     body{
         padding:80px 10px 10px;
     }
