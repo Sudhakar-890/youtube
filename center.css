@@ -1,0 +1,119 @@
+#center{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    column-gap:15px;
+    row-gap:70px;
+    margin:20px;
+
+}
+
+.container{
+    width:inherit;
+    height:320px;
+    background-color: rgb(15, 15, 15);
+    transition: all 0.4s;
+}
+
+.video-thumb{
+    object-fit: cover;
+    border-radius:20px;
+    transition: all 0.4s;
+}
+
+.bottom-box{
+    display:grid;
+    grid-template-columns:13% 87%;
+    gap:15px;
+    padding:10px;
+    
+}
+
+.logo-box img{
+    width:100%;
+    border-radius:100%;
+}
+
+.info-box{
+   
+    width:100%;
+    height:100%;
+    position:relative;
+}
+
+.info-box p{
+    margin:0;
+}
+
+.video-title{
+    font-weight:bolder;
+    font-size:large;
+    position:absolute;
+    top:2px;
+
+}
+
+.channel-name{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:medium;
+    position:absolute;
+    top:55px;
+    font-weight:bold;
+}
+
+.views{
+    position:absolute;
+    top:75px;
+    font-size:small;
+}
+
+.container:hover{
+    background-color: rgb(145, 143, 143);
+    transform: scale(0.9);
+}
+
+.container:hover .video-thumb{
+    border-radius: 0;
+    transform: scale(0.95);
+}
+
+@media (max-width:500px){
+    #center{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        margin:10px;
+        row-gap:50px;
+        column-gap:8px;
+    }
+
+    .container{
+        width:200px;
+        height:220px;
+    }
+
+    .video-thumb{
+        width:100%;
+        height:120px;
+        border-radius:15px;
+    }
+
+    .bottom-box{
+        gap:8px;
+    padding:5px;
+    }
+
+    .video-title{
+        font-size:16px;
+        top:1px;
+    }
+
+    .channel-name{
+        font-size:12px;
+        top:55px;
+    }
+
+    .views{
+    position:absolute;
+    top:75px;
+    font-size:8px;
+}
+}
