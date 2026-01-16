@@ -161,7 +161,7 @@ body{
 
     .left-section{
         padding: 0px 0px;
-        width:54px;
+        width:65px;
     }
 
     .youtube-logo{
@@ -207,15 +207,15 @@ body{
     }
 
     .right-section{
-        width: 200px;
+        width: 120px;
     }
 
     .user-image{
-         width:45px;
+         width:35px;
     }
 
     .notification-icon{
-         width:30px;
+         width:25px;
     }
 
 }
