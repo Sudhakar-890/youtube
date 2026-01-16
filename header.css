@@ -5,7 +5,8 @@ body{
     background-color:rgb(17, 15, 15);
     color:white;
     height:1000px;
-    padding:90px 0px 20px 200px; 
+    padding:90px 0px 20px 200px;
+    margin:0; 
 }
 #header{
     display:flex;
